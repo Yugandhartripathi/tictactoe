@@ -2,14 +2,12 @@ package com.example.yogi.myapplication;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.Toast;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void Login(View butt1){
+    /*public void Login(View butt1){
 
         EditText name = (EditText)findViewById(R.id.name);
         EditText pass = (EditText)findViewById(R.id.password);
@@ -26,7 +24,11 @@ public class MainActivity extends AppCompatActivity {
         pass.setText("");
         email.setText("");
     }
-
+*/
+    public void mark(View view){
+        ImageView imag = (ImageView) findViewById(R.id.im1);
+        imag.animate().alpha(1f).setDuration(1000);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
