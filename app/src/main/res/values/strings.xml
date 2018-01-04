@@ -5,4 +5,6 @@
     <string name="enter_password">enter password</string>
     <string name="example_exemplar_com">example@exemplar.com</string>
     <string name="enter_name">enter name</string>
+    <string name="tic_tac_toe" />
+    <string name="todo" />
 </resources>
